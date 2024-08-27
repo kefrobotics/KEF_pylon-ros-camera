@@ -71,7 +71,7 @@
     #  try to reach the desired brightness by only varying the exposure time. If
     #  gain AND exposure are given, it is not possible to reach the brightness,
     #  because both are assumed to be fix.
-    brightness: 0.0
+    brightness: 100
 
     #  Only relevant, if 'brightness' is set:
     #  The brightness_continuous flag controls the auto brightness function.
