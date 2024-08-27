@@ -1055,8 +1055,8 @@ std::string PylonROS2BlazeCamera::setOutlierRemovalTolerance(const int& toleranc
 {
     try
     {
-        blaze_cam_->OutlierRemovalTolerance.SetValue(tolerance);
-        RCLCPP_DEBUG_STREAM(LOGGER_BLAZE, "Outlier removal tolerance set to " << tolerance);
+        // blaze_cam_->OutlierRemovalTolerance.SetValue(tolerance);
+        RCLCPP_DEBUG_STREAM(LOGGER_BLAZE, "Outlier removal tolerance cannot be changed.");
     }
     catch (const GenICam::GenericException &e)
     {
