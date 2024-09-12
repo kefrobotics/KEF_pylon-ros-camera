@@ -1,3 +1,5 @@
+Note: this is a KEF-compatible version of Basler's Ros2 nodes
+
 # ROS2-Driver for Basler Cameras
 
 The official pylon ROS2 driver for [Basler](http://www.baslerweb.com/) GigE Vision, Basler USB3 Vision and Basler blaze 3D cameras (Humble Hawksbill)
